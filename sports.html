@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="./style_sports.css">
+    <link rel="stylesheet" href="./SlideShow.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
+  <body style="background-color:#D5DBDB">
+    <div class="main">
+      <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#" style="color:red;font-size:2rem"><b><i>Sports Mart</i></b></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#facility">Facilities</a></li>
+        <li><a href="#testimony">Testimonials</a></li>
+        <li><a href="#contacts">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="home">
+      <h1>Home</h1>
+      <div style="margin-top:-68px;" class="slider" id="slider1">
+    <!-- Slides -->
+
+    <div class="resposiveness" style="background-image:url(slideshow1.jpg)"></div>
+    <div class="resposiveness" style="background-image:url(slideshow2.jpg)"></div>
+    <div class="resposiveness" style="background-image:url(slideshow3.jpg)"></div>
+
+    <!-- The Arrows -->
+    <i class="left" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z"></path></svg></i>
+    <i class="right" class="arrows" style="z-index:2; position:absolute;"><svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" transform="translate(100, 100) rotate(180) "></path></svg></i>
+    <!-- Title Bar -->
+    <span class="titleBar">
+        <h1 style="color:white;">Only he who can see the invisible can do the impossible.</h1>
+    </span>
+</div>
+
+    </div>
+
+    <div class="facilities" id="facility">
+      <h1 style="color:#17202A;">Facilities :</h1>
+      <h2 style="text-align:center; color:#17202A";>Indoor Sports</h2>
+      <br>
+      <div style="padding-left:280px">
+      <figure>
+    <img src="chess.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Chess</h3>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="pool.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Pool</h3>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="table tennis.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Table Tennis</h3>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="carrom.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Carrom</h3>
+    </figcaption>
+</figure>
+</div>
+
+<h2 style="margin-top: 200px; text-align:center; color:#17202A;">Outdoor Sports</h2>
+<br>
+<div style="padding-left:280px">
+<figure>
+    <img src="lawn tennis.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Lawn Tennis</h3>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="cricket.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Cricket</h3>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="soccer.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Soccer</h3>
+    </figcaption>
+</figure>
+
+<figure>
+    <img src="surfing.jpeg" alt="Portfolio Item" width="300px" height="400px">
+    <figcaption>
+        <h3>Surfing</h3>
+    </figcaption>
+</figure>​
+</div>
+    </div>
+
+    <div class="testimonials" id="testimony" style="margin-top:200px;">
+      <div class="container">
+	<div class="row">
+		<div class="col-md-8 col-center m-auto">
+			<h2 style="color:#17202A;">Testimonials:</h2>
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Carousel indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<!-- Wrapper for carousel items -->
+				<div class="carousel-inner">
+					<div class="item carousel-item active">
+						<div class="img-box"><img src=".\testi1.jpeg" alt="No image"></div>
+						<p class="testimonial">Simply Brilliant!</p>
+						<p class="overview"><b>Antonio Moreno</b>, Media Analyst</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src=".\testi2.jpeg" alt="No image"></div>
+						<p class="testimonial">Amazing interactive web site.</p>
+						<p class="overview"><b>Paula Wilson</b>, Web Developer</p>
+					</div>
+					<div class="item carousel-item">
+						<div class="img-box"><img src=".\testi3.jpeg" alt="No image"></div>
+						<p class="testimonial">Cool sports stuff.</p>
+						<p class="overview"><b>Priscila Holz</b>, Seo Analyst</p>
+					</div>
+				</div>
+				<!-- Carousel controls -->
+				<a class="carousel-control left carousel-control-prev" href="#myCarousel" data-slide="prev">
+					<i class="fa fa-angle-left"></i>
+				</a>
+				<a class="carousel-control right carousel-control-next" href="#myCarousel" data-slide="next">
+					<i class="fa fa-angle-right"></i>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+    </div>
+
+    <div class="contact" id="contacts">
+      <div class="contact-container">
+  <h2 style="color:#17202A;">Feel free to get in touch.</h2>
+  <ul class="actions">
+    <li><a href="#" id="contact" class="button big">Contact Us</a></li>
+  </ul>
+</div>
+
+<div class="cd-popup contact" role="alert">
+  <form name="contactform" id="contactform" class="contact-form">
+    <div class="cd-popup-container" style="">
+      <p style="">
+        <a href="" class="cd-popup-close cd-close-button">
+          <i class="fa fa-times" style="pointer-events:none;"></i>
+        </a>
+      </p>
+
+      <div class="name">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div class="email">
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" />
+      </div>
+      <div class="message">
+        <label for="message">Message</label>
+        <textarea name="message" id="message" name="message"></textarea>
+      </div>
+      <br>
+      <div style="text-align:left">
+        <input type="checkbox" id="human" name="human" />
+        <label for="human">I am a human and not a robot.</label>
+      </div>
+      <br>
+      <div class="submit">
+        <p class="user-message" id="contactblurb"> Questions, suggestions, and general comments are all welcome!</p>
+        <input type="submit" name="submit" id="submit" value="Send" />
+      </div>
+    </div>
+  </form>
+</div>
+
+<div class="cd-popup notification" role="alert">
+  <div class="cd-popup-container">
+    <a href="" class="cd-popup-close cd-close-button"><i class="fa fa-times" style="pointer-events:none;"></i></a>
+    <p>
+      <h3 id="notification-text">Thanks for getting in touch!</h3>
+    </p>
+  </div>
+</div>
+    </div>
+    </div>
+  </body>
+  <script type="text/javascript">
+  (function($) {
+"use strict";
+$.fn.sliderResponsive = function(settings) {
+
+  var set = $.extend(
+    {
+      slidePause: 5000,
+      fadeSpeed: 800,
+      autoPlay: "on",
+      showArrows: "off",
+      hideDots: "off",
+      hoverZoom: "on",
+      titleBarTop: "off"
+    },
+    settings
+  );
+
+  var $slider = $(this);
+  var size = $slider.find("> div").length; //number of slides
+  var position = 0; // current position of carousal
+  var sliderIntervalID; // used to clear autoplay
+
+  // Add a Dot for each slide
+  $slider.append("<ul></ul>");
+  $slider.find("> div").each(function(){
+    $slider.find("> ul").append('<li></li>');
+  });
+
+  // Put .show on the first Slide
+  $slider.find("div:first-of-type").addClass("show");
+
+  // Put .showLi on the first dot
+  $slider.find("li:first-of-type").addClass("showli")
+
+   //fadeout all items except .show
+  $slider.find("> div").not(".show").fadeOut();
+
+  // If Autoplay is set to 'on' than start it
+  if (set.autoPlay === "on") {
+      startSlider();
+  }
+
+  // If showarrows is set to 'on' then don't hide them
+  if (set.showArrows === "on") {
+      $slider.addClass('showArrows');
+  }
+
+  // If hideDots is set to 'on' then hide them
+  if (set.hideDots === "on") {
+      $slider.addClass('hideDots');
+  }
+
+  // If hoverZoom is set to 'off' then stop it
+  if (set.hoverZoom === "off") {
+      $slider.addClass('hoverZoomOff');
+  }
+
+  // If titleBarTop is set to 'on' then move it up
+  if (set.titleBarTop === "on") {
+      $slider.addClass('titleBarTop');
+  }
+
+  // function to start auto play
+  function startSlider() {
+    sliderIntervalID = setInterval(function() {
+      nextSlide();
+    }, set.slidePause);
+  }
+
+  // on mouseover stop the autoplay
+  $slider.mouseover(function() {
+    if (set.autoPlay === "on") {
+      clearInterval(sliderIntervalID);
+    }
+  });
+
+  // on mouseout starts the autoplay
+  $slider.mouseout(function() {
+    if (set.autoPlay === "on") {
+      startSlider();
+    }
+  });
+
+  //on right arrow click
+  $slider.find("> .right").click(nextSlide)
+
+  //on left arrow click
+  $slider.find("> .left").click(prevSlide);
+
+  // Go to next slide
+  function nextSlide() {
+    position = $slider.find(".show").index() + 1;
+    if (position > size - 1) position = 0;
+    changeCarousel(position);
+  }
+
+  // Go to previous slide
+  function prevSlide() {
+    position = $slider.find(".show").index() - 1;
+    if (position < 0) position = size - 1;
+    changeCarousel(position);
+  }
+
+  //when user clicks slider button
+  $slider.find(" > ul > li").click(function() {
+    position = $(this).index();
+    changeCarousel($(this).index());
+  });
+
+  //this changes the image and button selection
+  function changeCarousel() {
+    $slider.find(".show").removeClass("show").fadeOut();
+    $slider
+      .find("> div")
+      .eq(position)
+      .fadeIn(set.fadeSpeed)
+      .addClass("show");
+    // The Dots
+    $slider.find("> ul").find(".showli").removeClass("showli");
+    $slider.find("> ul > li").eq(position).addClass("showli");
+  }
+
+  return $slider;
+};
+})(jQuery);
+
+
+
+//////////////////////////////////////////////
+// Activate each slider - change options
+//////////////////////////////////////////////
+$(document).ready(function() {
+
+$("#slider1").sliderResponsive({
+// Using default everything
+  // slidePause: 5000,
+  // fadeSpeed: 800,
+  // autoPlay: "on",
+  // showArrows: "off",
+  // hideDots: "off",
+  // hoverZoom: "on",
+  // titleBarTop: "off"
+});
+
+$("#slider2").sliderResponsive({
+  fadeSpeed: 300,
+  autoPlay: "off",
+  showArrows: "on",
+  hideDots: "on"
+});
+
+$("#slider3").sliderResponsive({
+  hoverZoom: "off",
+  hideDots: "on"
+});
+
+});
+//---------------------------Contact_JS-----------------------------------------
+// Check for valid email syntax
+function validateEmail(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+
+function closeForm() {
+  document.contactform.name.value = '';
+  document.contactform.email.value = '';
+  document.contactform.message.value = '';
+
+  $('.email').removeClass('typing');
+  $('.name').removeClass('typing');
+  $('.message').removeClass('typing');
+
+  $('.cd-popup').removeClass('is-visible');
+  $('.notification').addClass('is-visible');
+  $('#notification-text').html("Thanks for contacting us!");
+}
+
+$(document).ready(function($) {
+
+  /* ------------------------- */
+  /* Contact Form Interactions */
+  /* ------------------------- */
+  $('#contact').on('click', function(event) {
+    event.preventDefault();
+
+    $('#contactblurb').html('Questions, suggestions, and general comments are all welcome!');
+    $('.contact').addClass('is-visible');
+
+    if ($('#name').val().length != 0) {
+      $('.name').addClass('typing');
+    }
+    if ($('#email').val().length != 0) {
+      $('.email').addClass('typing');
+    }
+    if ($('#message').val().length != 0) {
+      $('.message').addClass('typing');
+    }
+  });
+
+  //close popup when clicking x or off popup
+  $('.cd-popup').on('click', function(event) {
+    if ($(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup')) {
+      event.preventDefault();
+      $(this).removeClass('is-visible');
+    }
+  });
+
+  //close popup when clicking the esc keyboard button
+  $(document).keyup(function(event) {
+    if (event.which == '27') {
+      $('.cd-popup').removeClass('is-visible');
+    }
+  });
+
+  /* ------------------- */
+  /* Contact Form Labels */
+  /* ------------------- */
+  $('#name').keyup(function() {
+    $('.name').addClass('typing');
+    if ($(this).val().length == 0) {
+      $('.name').removeClass('typing');
+    }
+  });
+  $('#email').keyup(function() {
+    $('.email').addClass('typing');
+    if ($(this).val().length == 0) {
+      $('.email').removeClass('typing');
+    }
+  });
+  $('#message').keyup(function() {
+    $('.message').addClass('typing');
+    if ($(this).val().length == 0) {
+      $('.message').removeClass('typing');
+    }
+  });
+
+  /* ----------------- */
+  /* Handle submission */
+  /* ----------------- */
+  $('#contactform').submit(function() {
+    var name = $('#name').val();
+    var email = $('#email').val();
+    var message = $('#message').val();
+    var human = $('#human:checked').val();
+
+    if (human) {
+      if (validateEmail(email)) {
+        if (name) {
+          if (message) {
+
+// Handle submitting data somewhere
+// For a tutorial on submitting the form to a Google Spreadsheet, see:
+// https://notnaturaltutorials.wordpress.com/2016/03/20/submit-form-to-spreadsheet/
+
+/*
+            var googleFormsURL = "https://docs.google.com/forms/d/1dHaFG67d7wwatDtiVNOL98R-FwW1rwdDwdFqqKJggBM3nFB4/formResponse";
+            // replace these example entry numbers
+            var spreadsheetFields = {
+              "entry.212312005": name,
+              "entry.1226278897": email,
+              "entry.1835345325": message
+            }
+            $.ajax({
+              url: googleFormsURL,
+              data: spreadsheetFields,
+              type: "POST",
+              dataType: "xml",
+              statusCode: {
+                0: function() {
+
+                },
+                200: function() {
+
+                }
+              }
+            });
+*/
+
+            closeForm();
+
+          } else {
+            $('#notification-text').html("<strong>Please let us know what you're thinking!</strong>");
+            $('.notification').addClass('is-visible');
+          }
+        } else {
+          $('#notification-text').html('<strong>Please provide a name.</strong>');
+          $('.notification').addClass('is-visible');
+        }
+      } else {
+        $('#notification-text').html('<strong>Please use a valid email address.</strong>');
+        $('.notification').addClass('is-visible');
+      }
+    } else {
+      $('#notification-text').html('<h3><strong><em>Warning: Please prove you are a human and not a robot.</em></strong></h3>');
+      $('.notification').addClass('is-visible');
+    }
+
+    return false;
+  });
+});
+  </script>
+</html>
